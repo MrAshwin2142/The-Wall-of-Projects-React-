@@ -1,0 +1,106 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 5px;
+    padding: 3px 15px;
+    /* transition:all 5s; */
+}
+
+
+.home-container {
+    max-width: 800px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.contribute-section {
+    margin-top: 30px;
+}
+
+.thank-contributors {
+    margin-top: 40px;
+}
+
+#addProjectBtn {
+    background-color: #ff0000;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+#addProjectBtn a {
+    color: antiquewhite;
+}
+
+#addProjectBtn:hover {
+    background-color: antiquewhite;
+}
+
+#addProjectBtn:hover a {
+    color: #ff0000;
+}
+
+.btn {
+    margin: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    background-color: #550000;
+    color: antiquewhite;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ff0000;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    color: #faebd7;
+}
+
+/* Project List Styles */
+
+#projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+/* Example CSS styles for the Contributors component */
+
+.star-contributors {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .star-contributors h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .star-contributors img {
+    margin: 20px 5px;
+    padding: 5px;
+  }
+  
+footer {
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+}
